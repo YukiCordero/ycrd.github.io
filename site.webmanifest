@@ -1,0 +1,23 @@
+{
+  "name": "Yuki Cordero Portfolio",
+  "short_name": "Yuki Cordero",
+  "description": "AI Automation and Tech Virtual Assistant portfolio for lead follow-up, CRM support, workflow documentation, and small-business operations.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#090f1c",
+  "theme_color": "#090f1c",
+  "icons": [
+    {
+      "src": "assets/favicons/favicon-180x180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/favicons/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

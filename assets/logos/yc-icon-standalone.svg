@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 120 120"
+   role="img"
+   aria-labelledby="title desc"
+   version="1.1"
+   id="svg6"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <title
+     id="title">YC standalone icon</title>
+  <desc
+     id="desc">Standalone YC monogram icon.</desc>
+  <defs
+     id="defs5">
+    <linearGradient
+       id="ycGold"
+       x1="18"
+       y1="14"
+       x2="102"
+       y2="106"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#F4D28A"
+         id="stop1" />
+      <stop
+         offset="0.52"
+         stop-color="#C99A42"
+         id="stop2" />
+      <stop
+         offset="1"
+         stop-color="#8F6A2A"
+         id="stop3" />
+    </linearGradient>
+    <radialGradient
+       id="ycNavy"
+       cx="35%"
+       cy="25%"
+       r="85%">
+      <stop
+         offset="0"
+         stop-color="#1E293B"
+         id="stop4" />
+      <stop
+         offset="1"
+         stop-color="#0B1120"
+         id="stop5" />
+    </radialGradient>
+    <filter
+       id="ycSoftShadow"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feDropShadow
+         dx="0"
+         dy="14"
+         stdDeviation="12"
+         flood-color="#0B1120"
+         flood-opacity="0.18" />
+    </filter>
+  </defs>
+  <g
+     filter="url(#ycSoftShadow)"
+     id="g6">
+    <path
+       id="rect5"
+       style="fill:url(#ycNavy)"
+       d="m 30,0 h 60 c 16.62,0 30,13.38 30,30 v 60 c 0,16.62 -13.38,30 -30,30 H 30 C 13.38,120 0,106.62 0,90 V 30 C 0,13.38 13.38,0 30,0 Z" />
+    <path
+       id="circle5"
+       style="fill:none;stroke:url(#ycGold);stroke-width:4.5"
+       d="M 107,60 A 47,47 0 0 1 60,107 47,47 0 0 1 13,60 47,47 0 0 1 60,13 47,47 0 0 1 107,60 Z" />
+    <path
+       id="circle6"
+       style="fill:none;stroke:#f8efd8;stroke-width:1.5;stroke-opacity:0.16"
+       d="M 100,60 A 40,40 0 0 1 60,100 40,40 0 0 1 20,60 40,40 0 0 1 60,20 40,40 0 0 1 100,60 Z" />
+    <path
+       d="M 44.030176,70 H 51.48916 V 60.388672 L 61.490137,42.353516 H 52.71377 l -3.729493,8.349609 c -0.463867,1.020508 -0.834961,2.041016 -1.1875,3.191406 -0.389648,-1.15039 -0.779297,-2.170898 -1.261718,-3.191406 l -3.989258,-8.349609 h -8.813477 l 10.297852,18.035156 z m 29.304882,0.371094 c 8.108398,0 12.208984,-5.751953 12.580078,-10.464844 h -7.607422 c -0.371094,2.356445 -2.041016,3.933594 -4.787109,3.933594 -3.673828,0 -5.789063,-2.579102 -5.789063,-7.644532 0,-4.824218 2.059571,-7.68164 5.826172,-7.68164 2.783203,0 4.416016,1.577148 4.712891,3.933594 h 7.607422 c -0.686524,-6.679688 -5.65918,-10.464844 -12.542969,-10.464844 -7.44043,0 -13.322266,4.972656 -13.322266,14.21289 0,9.184571 5.733399,14.175782 13.322266,14.175782 z"
+       id="text6"
+       style="font-weight:900;font-size:38px;font-family:Manrope, Inter, Arial, Helvetica, sans-serif;letter-spacing:-1.7;text-anchor:middle;fill:#f8efd8;filter:url(#ycSoftShadow)"
+       aria-label="YC" />
+  </g>
+</svg>

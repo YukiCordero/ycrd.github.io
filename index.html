@@ -11,7 +11,7 @@
   <meta property="og:title" content="Yuki Cordero — AI Automation & Tech Virtual Assistant" />
   <meta property="og:description" content="AI automation and Tech VA support for faster lead follow-up, cleaner CRM tracking, tested workflows, and documented handoff for small businesses." />
   <!-- TODO before launch: replace with the absolute deployed URL for this 1200×630 preview image. -->
-  <meta property="og:image" content="https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY-NAME/assets/social-preview.png" />
+  <meta property="og:image" content="https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY-NAME/assets/images/social-preview.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:type" content="image/png" />
@@ -20,11 +20,23 @@
   <meta name="twitter:title" content="Yuki Cordero — AI Automation & Tech Virtual Assistant" />
   <meta name="twitter:description" content="Practical AI automation, lead follow-up setup, CRM organization, trackers, testing, and documentation for small businesses." />
   <!-- TODO before launch: use the same absolute deployed preview image URL for Twitter/X. -->
-  <meta name="twitter:image" content="https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY-NAME/assets/social-preview.png" />
+  <meta name="twitter:image" content="https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY-NAME/assets/images/social-preview.png" />
   <meta name="twitter:image:alt" content="Yuki Cordero portfolio preview for AI Automation and Tech Virtual Assistant support" />
   <title>Yuki Cordero | AI Automation VA for Lead Follow-Up & CRM Support</title>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-  <link rel="preload" href="assets/profile.webp" as="image" type="image/webp" fetchpriority="high" />
+  <link rel="icon" href="assets/favicons/yc-favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="assets/favicons/favicon.ico" sizes="any" />
+  <link rel="icon" href="assets/favicons/favicon-16x16.png" sizes="16x16" type="image/png" />
+  <link rel="icon" href="assets/favicons/favicon-32x32.png" sizes="32x32" type="image/png" />
+  <link rel="icon" href="assets/favicons/favicon-48x48.png" sizes="48x48" type="image/png" />
+  <link rel="icon" href="assets/favicons/favicon-180x180.png" sizes="180x180" type="image/png" />
+  <link rel="icon" href="assets/favicons/favicon-512x512.png" sizes="512x512" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/favicons/apple-touch-icon.png" sizes="180x180" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="preload" href="assets/images/profile.webp" as="image" type="image/webp" fetchpriority="high" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800;900&family=Manrope:wght@700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/yc-brand-tokens-expanded.css" />
   <link rel="stylesheet" href="styles.css" />
   <!-- TODO before launch: replace placeholder JSON-LD URL fields with the final GitHub Pages URL. -->
   <script type="application/ld+json">
@@ -90,11 +102,7 @@
   <header class="site-header" data-header>
     <nav class="nav container" aria-label="Primary navigation">
       <a class="brand" href="#home" aria-label="Yuki Cordero home">
-        <span class="brand-mark" aria-hidden="true">YC</span>
-        <span class="brand-text">
-          <strong>Yuki Cordero</strong>
-          <small>Workflow Support</small>
-        </span>
+        <img class="brand-logo" src="assets/logos/yc-logo-reversed-dark.svg" alt="Yuki Cordero" width="220" height="51" decoding="async" />
       </a>
 
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" data-nav-toggle>
@@ -104,14 +112,12 @@
 
       <ul class="nav-menu" id="nav-menu" data-nav-menu>
         <li><a href="#services">Services</a></li>
-        <li><a href="#tools">Tools</a></li>
+        <li><a href="#case-studies">Projects</a></li>
         <li><a href="#process">Process</a></li>
-        <li><a href="#case-studies">Case Studies</a></li>
-        <li><a href="#results">Highlights</a></li>
-        <li><a href="#rate">Rate</a></li>
+        <li><a href="#results">Results</a></li>
         <li><a href="#faq">FAQ</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a class="nav-cta" href="https://calendly.com/hello-yukicordero/30min" target="_blank" rel="noopener noreferrer" aria-label="Book a Workflow Review call">Workflow Review</a></li>
+        <li><a class="nav-cta" href="https://calendly.com/hello-yukicordero/30min" target="_blank" rel="noopener noreferrer" aria-label="Book a Workflow Review call">Book a Workflow Review</a></li>
       </ul>
     </nav>
   </header>
@@ -122,9 +128,9 @@
       <div class="container hero-grid">
         <div class="hero-copy reveal">
           <p class="eyebrow"><span></span> AI Automation & Tech VA Support</p>
-          <h1 id="hero-title">Capture more leads, follow up faster, and keep your CRM clean.</h1>
+          <h1 id="hero-title">Build cleaner workflows for leads, follow-ups, and daily operations.</h1>
           <p class="hero-lede">
-            I set up practical automations and organized support systems so small businesses can respond faster, track every lead clearly, and spend less time on repetitive admin.
+            I help small businesses organize inquiries, automate repetitive follow-up, clean up CRM workflows, and build simple tech systems that make operations easier to manage.
           </p>
 
           <div class="signal-row" aria-label="Core strengths">
@@ -138,7 +144,7 @@
             <a class="button primary" href="https://calendly.com/hello-yukicordero/30min" target="_blank" rel="noopener noreferrer">Book a Workflow Review</a>
             <a class="button secondary" href="#case-studies">View Case Studies</a>
           </div>
-          <p class="hero-trust">Tested workflows · Documentation included · Loom walkthroughs available · Async-friendly PHT / UTC+8 support</p>
+          <p class="hero-trust">Tested workflows · Clear documentation · Loom walkthroughs · Async-friendly PHT / UTC+8 support</p>
 
           <dl class="hero-meta" aria-label="Availability details">
             <div><dt>Based in</dt><dd>Davao City, Philippines</dd></div>
@@ -150,13 +156,13 @@
         <div class="hero-visual reveal delay-1" aria-label="Portfolio visual summary">
           <div class="portrait-shell">
             <div class="portrait-frame">
-              <img src="assets/profile.webp" alt="Yuki Cordero, AI Automation and Tech Virtual Assistant" width="1122" height="1402" fetchpriority="high" decoding="async" />
+              <img src="assets/images/profile.webp" alt="Yuki Cordero, AI Automation and Tech Virtual Assistant" width="1122" height="1402" fetchpriority="high" decoding="async" />
             </div>
-            <div class="orbit-badge orbit-top float-ai">AI Automation</div>
-            <div class="orbit-badge orbit-bottom float-tech">Tech VA</div>
+            <div class="orbit-badge orbit-top">AI Automation</div>
+            <div class="orbit-badge orbit-bottom">Tech VA</div>
           </div>
 
-          <aside class="system-card float-workflow" aria-label="Workflow support snapshot">
+          <aside class="system-card" aria-label="Workflow support snapshot">
             <div class="system-card-head">
               <span class="status-dot"></span>
               <strong>Workflow build snapshot</strong>
@@ -188,7 +194,8 @@
       <div class="container about-grid">
         <div class="about-copy reveal">
           <p class="section-kicker">About</p>
-          <h2 id="about-title">Tech-savvy support with an operations mindset.</h2>
+          <h2 id="about-title">Practical AI automation with an operations mindset.</h2>
+          <p class="about-intro">I’m Yuki Cordero, an AI Automation and Tech Virtual Assistant focused on practical systems for small businesses. I combine workflow thinking, automation tools, CRM support, and lightweight web/data skills to help owners reduce manual work and keep important tasks visible.</p>
           <div class="text-blocks">
             <article>
               <h3>Focus</h3>
@@ -207,7 +214,7 @@
 
         <div class="about-panel reveal delay-1">
           <div class="image-lift">
-            <img class="workspace-img" src="assets/workspace.webp" alt="Yuki's workstation with monitors and keyboard" width="1600" height="1200" loading="lazy" decoding="async" />
+            <img class="workspace-img" src="assets/images/workspace.jfif" alt="Yuki's workstation with monitors and keyboard" width="1600" height="1200" loading="lazy" decoding="async" />
           </div>
           <div class="quick-facts" aria-label="Quick facts">
             <h3>Quick facts</h3>
@@ -331,25 +338,25 @@
     <section class="section" id="case-studies" aria-labelledby="case-studies-title">
       <div class="container">
         <div class="section-heading reveal">
-          <p class="section-kicker">Case Studies</p>
-          <h2 id="case-studies-title">Proof of practical builds.</h2>
-          <p>Two practical builds showing lead automation, business operations support, and the ability to document systems for handoff.</p>
+          <p class="section-kicker">Projects</p>
+          <h2 id="case-studies-title">Practical builds for messy workflows.</h2>
+          <p>Explore practical builds that show how I turn messy manual processes into organized systems: lead routing, follow-up automation, CRM actions, tracking dashboards, POS workflows, and handoff documentation.</p>
         </div>
 
         <article class="case-card workflow-case reveal">
           <div class="case-copy case-copy-wide">
             <div>
-              <p class="case-label">Case study 01 · Portfolio simulation</p>
+              <p class="case-label">Project 01 · Portfolio simulation</p>
               <h3>Smart Appointment Setter for Cleaning Leads</h3>
             </div>
             <p class="case-summary">A portfolio simulation showing how one cleaning inquiry can be routed into the right lead path, follow-up email, tracking update, CRM action, and calendar booking when schedule details are complete.</p>
           </div>
 
           <figure class="workflow-shot">
-            <a href="assets/cleaning-lead-workflow.png" target="_blank" rel="noopener noreferrer" aria-label="Open the full cleaning lead automation workflow screenshot in a new tab">
-              <img src="assets/cleaning-lead-workflow.webp" alt="n8n workflow screenshot for a cleaning business lead automation with lead capture, scoring, email follow-up, Google Sheets update, CRM task creation, and Google Calendar booking." width="1019" height="517" loading="lazy" decoding="async" />
+            <a href="assets/images/cleaning-lead-workflow.png" target="_blank" rel="noopener noreferrer" aria-label="Open the full cleaning lead automation workflow screenshot in a new tab">
+              <img src="assets/images/cleaning-lead-workflow.webp" alt="n8n workflow screenshot for a cleaning business lead automation with lead capture, scoring, email follow-up, Google Sheets update, CRM task creation, and Google Calendar booking." width="1019" height="517" loading="lazy" decoding="async" />
             </a>
-            <figcaption>Workflow map: capture lead → format details → score and route → send follow-up → update Sheets, CRM, tasks, and calendar. <a class="workflow-open-link" href="assets/cleaning-lead-workflow.png" target="_blank" rel="noopener noreferrer">Open full workflow screenshot →</a></figcaption>
+            <figcaption>Workflow map: capture lead → format details → score and route → send follow-up → update Sheets, CRM, tasks, and calendar. <a class="workflow-open-link" href="assets/images/cleaning-lead-workflow.png" target="_blank" rel="noopener noreferrer">Open full workflow screenshot →</a></figcaption>
           </figure>
 
           <div class="before-after-grid" aria-label="Before and after workflow comparison">
@@ -380,9 +387,10 @@
 
             <div class="case-sections">
               <div><h4>Problem</h4><p>Cleaning businesses can miss bookings when inquiries are handled manually across lead details, urgency checks, replies, trackers, and follow-up reminders.</p></div>
-              <div><h4>What I built</h4><p>I built an n8n workflow that captures new leads, formats the submission, scores each inquiry, sends the correct follow-up, notifies the owner, updates Google Sheets, creates CRM tasks, and books a Google Calendar event when a valid schedule is provided.</p></div>
-              <div><h4>Potential business benefit</h4><p>The workflow demonstrates four qualification paths and connects 10+ actions that help reduce manual steps for qualifying, following up with, tracking, and scheduling cleaning leads.</p></div>
-              <div><h4>Business use case</h4><p>For service businesses, this kind of setup can keep new inquiries visible, trigger faster responses, and support clearer follow-up ownership.</p></div>
+              <div><h4>Build</h4><p>I built an n8n workflow that captures new leads, formats the submission, scores each inquiry, sends the correct follow-up, notifies the owner, updates Google Sheets, creates CRM tasks, and books a Google Calendar event when a valid schedule is provided.</p></div>
+              <div><h4>Tools</h4><p>n8n · Google Sheets · Gmail · CRM task flow · Google Calendar</p></div>
+              <div><h4>Outcome</h4><p>The workflow demonstrates four qualification paths and connects 10+ actions that help reduce manual steps for qualifying, following up with, tracking, and scheduling cleaning leads.</p></div>
+              <div><h4>Use case</h4><p>For service businesses, this kind of setup can keep new inquiries visible, trigger faster responses, and support clearer follow-up ownership.</p></div>
               <div class="case-proof"><h4>What this proves</h4><p>This demonstrates my ability to translate a messy lead-handling process into a tested automation with routing logic, notifications, CRM tasks, and clear documentation.</p></div>
               <div class="case-links" aria-label="AI Appointment Setter project links">
                 <a class="text-link" href="https://www.loom.com/share/634b47799a204ec3b588795724baf2c1" target="_blank" rel="noopener noreferrer" aria-label="Watch the Loom demo for the Smart Appointment Setter case study">Watch Demo <span>→</span></a>
@@ -394,10 +402,10 @@
 
         <article class="case-card reveal">
           <div class="case-visual image-visual">
-            <img src="assets/pos-system.webp" alt="Screenshot of the Dream Coffee POS interface" width="897" height="904" loading="lazy" decoding="async" />
+            <img src="assets/images/pos-system.png" alt="Screenshot of the Dream Coffee POS interface" width="897" height="904" loading="lazy" decoding="async" />
           </div>
           <div class="case-copy">
-            <p class="case-label">Case study 02 · Family business system</p>
+            <p class="case-label">Project 02 · Family business system</p>
             <h3>Custom POS System for Orders, Inventory, Sales, and Employee Time Tracking</h3>
             <div class="case-meta">
               <span>Family business system</span>
@@ -406,8 +414,9 @@
             </div>
             <div class="case-sections">
               <div><h4>Problem</h4><p>Manual tracking made it harder to review orders, payments, stock, sales reports, and employee time records in one place.</p></div>
-              <div><h4>What I built</h4><p>I built a custom Dream Coffee POS system with order taking, cart checkout, payment tracking, inventory updates, low-stock alerts, sales reports, employee time logs, salary tracking, menu management, and CSV export.</p></div>
-              <div><h4>Operational value</h4><p>This family business system combines six core functions into one internal tool, making daily orders, stock, payments, reports, and time records easier to review.</p></div>
+              <div><h4>Build</h4><p>I built a custom Dream Coffee POS system with order taking, cart checkout, payment tracking, inventory updates, low-stock alerts, sales reports, employee time logs, salary tracking, menu management, and CSV export.</p></div>
+              <div><h4>Tools</h4><p>React · Vite · Firebase · Firestore · CSV export</p></div>
+              <div><h4>Outcome</h4><p>This family business system combines six core functions into one internal tool, making daily orders, stock, payments, reports, and time records easier to review.</p></div>
               <div><h4>Why it matters for Tech VA support</h4><p>The project shows the operations skills behind strong Tech VA work: understanding a real workflow, structuring data, maintaining records, and turning scattered tracking into a usable system.</p></div>
               <div class="case-proof"><h4>What this proves</h4><p>This demonstrates my ability to build practical internal tools that organize day-to-day operations, reporting, inventory, and team time records in one place.</p></div>
             </div>
@@ -448,7 +457,7 @@
           <div class="quote-mark" aria-hidden="true">“</div>
           <blockquote>The POS system helped us organize orders, sales, inventory, and employee time records in one place instead of tracking everything manually.</blockquote>
           <figcaption>
-            <img src="assets/testimonial-devie.webp" alt="Devie, Sales Staff at Dream Coffee" width="540" height="720" loading="lazy" decoding="async" />
+            <img src="assets/images/testimonial-devie.webp" alt="Devie, Sales Staff at Dream Coffee" width="540" height="720" loading="lazy" decoding="async" />
             <span><strong>Devie</strong><small>Sales Staff, Dream Coffee POS User</small></span>
           </figcaption>
         </figure>
@@ -547,7 +556,7 @@
         <div class="contact-copy reveal">
           <p class="section-kicker">Contact</p>
           <h2 id="contact-title">Let’s review your workflow.</h2>
-          <p>Need help with AI automation, CRM setup, lead follow-up, or business workflow systems? Book a workflow review so we can identify what is manual today and choose a practical first improvement.</p>
+          <p>Need help improving a lead process, CRM workflow, tracker, or internal system? Book a workflow review and we’ll identify the highest-impact manual step to organize or automate first.</p>
           <div class="intake-card" aria-label="Workflow review questions">
             <h3>For a useful first call, think about:</h3>
             <ul>
@@ -580,11 +589,12 @@
 
   <footer class="site-footer">
     <div class="container footer-grid">
+      <img class="footer-logo" src="assets/logos/yc-logo-reversed-dark.svg" alt="Yuki Cordero — AI Automation and Tech VA" width="180" height="42" loading="lazy" decoding="async" />
       <p>© <span data-year></span> Yuki Cordero. AI Automation & Tech Virtual Assistant.</p>
       <a href="#home">Back to top ↑</a>
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
