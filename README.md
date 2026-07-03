@@ -49,7 +49,7 @@ The clean YC personal branding is designed to feel refined, trustworthy, and app
 
 ## How to View the Portfolio
 
-Open `index.html` in a browser to view the website locally.
+Open `https://yukicordero.github.io/Portfolio/` in a browser to view the website locally.
 
 ## Connect With Yuki
 
