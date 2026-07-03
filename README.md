@@ -1,138 +1,56 @@
-# Yuki Cordero Portfolio — Production Package
+# Yuki Cordero Portfolio
 
-This package contains the production-ready branded portfolio website for Yuki Cordero. The site is a static GitHub Pages-ready build and opens from the root `index.html` file.
+## Professional Portfolio Overview
 
-## Package structure
+This portfolio presents Yuki Cordero as a modern AI Automation and Tech Virtual Assistance professional with experience supporting small businesses, teams, and entrepreneurs through organized, reliable, and technology-driven service.
 
-```text
-/
-├── index.html
-├── styles.css
-├── script.js
-├── README.md
-├── .nojekyll
-├── site.webmanifest
-├── assets/
-│   ├── images/
-│   ├── logos/
-│   ├── favicons/
-│   └── brand/
-├── css/
-│   └── yc-brand-tokens-expanded.css
-└── docs/
-    ├── portfolio-copy-and-structure.md
-    ├── logo-usage-guide.md
-    └── launch-qa-checklist.md
-```
+The website is designed to introduce Yuki’s work, communicate her service strengths, and give potential clients, employers, recruiters, and collaborators a clear view of how she can support day-to-day operations, workflow improvement, and digital business systems.
 
-## Visual direction preserved
+## What This Portfolio Shows
 
-The current premium YC identity has been preserved: dark navy background, gold accent system, cream text, modern portfolio layout, and professional AI Automation / Tech VA positioning. This cleanup reorganizes files and improves production readiness without redesigning the site from scratch.
+This portfolio highlights Yuki’s ability to provide practical, detail-oriented support across several key areas:
 
-## Required Before Launch
+- AI automation support
+- Tech virtual assistance
+- CRM and lead follow-up support
+- Workflow organization
+- Project and operations support
+- Digital service experience
 
-The final GitHub Pages URL was not provided, so the package intentionally keeps URL placeholders. Do not invent the deployment URL. After the repository is created and GitHub Pages is enabled, replace every placeholder with the final public URL.
+Together, these areas reflect a strong focus on helping businesses stay organized, respond faster, simplify repetitive tasks, and create smoother systems for growth.
 
-Current placeholder format:
+## Website Sections
 
-```text
-https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY-NAME/
-```
+### Home
 
-Update the following file and fields after the final URL is known:
+Introduces Yuki’s professional positioning and gives visitors a quick understanding of her focus in AI automation, tech support, and business operations.
 
-### `index.html`
+### About
 
-- `<link rel="canonical">` href
-- `<meta property="og:image">` content
-- `<meta name="twitter:image">` content
-- JSON-LD `Person.@id`
-- JSON-LD `Person.url`
-- JSON-LD `ProfessionalService.@id`
-- JSON-LD `ProfessionalService.url`
-- JSON-LD `ProfessionalService.provider.@id`
-- JSON-LD `WebSite.@id`
-- JSON-LD `WebSite.url`
+Shares Yuki’s background, working style, and the value she brings to clients and teams through dependable, tech-enabled support.
 
-The social preview fields should use the absolute deployed image URL, for example:
+### Services / Skills
 
-```text
-https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY-NAME/assets/images/social-preview.png
-```
+Outlines the main services and capabilities offered, including automation assistance, CRM support, workflow documentation, lead follow-up, and operational coordination.
 
-### `site.webmanifest`
+### Projects
 
-- Optional after deployment: change `start_url` and `scope` from relative paths to the final public URL if a fully absolute manifest is preferred. The current relative configuration is safe for GitHub Pages project sites.
+Presents selected examples of Yuki’s work and service experience, showing how her skills can support real business needs and improve everyday processes.
 
-### External service/contact fields to confirm
+### Contact
 
-- Calendly URL
-- LinkedIn URL
-- Email address and mailto subject
-- Loom demo links
-- GitHub repository links for both case studies
-- Published rate and availability details
+Gives visitors a clear way to connect, inquire about services, or start a professional conversation.
 
-## Logo and favicon assets
+## Brand Style
 
-Production logo files live in `assets/logos/`:
+The visual identity of this portfolio is modern, professional, and premium. It uses a dark navy, gold, and cream color palette to create a polished and confident impression.
 
-- `yc-logo-primary-light.svg`
-- `yc-logo-reversed-dark.svg`
-- `yc-icon-standalone.svg`
-- `yc-logo-monochrome.svg`
+The clean YC personal branding is designed to feel refined, trustworthy, and approachable while supporting Yuki’s positioning as a capable digital operations and AI automation professional.
 
-Favicon assets live in `assets/favicons/`:
+## How to View the Portfolio
 
-- `yc-favicon.svg`
-- `favicon-16x16.png`
-- `favicon-32x32.png`
-- `favicon-48x48.png`
-- `favicon-180x180.png`
-- `favicon-512x512.png`
-- `apple-touch-icon.png`
-- `favicon.ico`
+Open `index.html` in a browser to view the website locally.
 
-The SVG logo files are path-based for production consistency. If they are edited in a design tool later, convert any live text back to paths before export.
+## Connect With Yuki
 
-## Supporting documents
-
-- `docs/logo-usage-guide.md` explains how to use each logo and favicon file.
-- `docs/portfolio-copy-and-structure.md` records the final copy direction and recommended homepage structure.
-- `docs/launch-qa-checklist.md` lists final checks before GitHub Pages deployment.
-
-## Local preview
-
-Open `index.html` directly in a browser, or run a small local server from the package root:
-
-```bash
-python -m http.server 8000
-```
-
-Then visit:
-
-```text
-http://localhost:8000
-```
-
-## GitHub Pages deployment
-
-1. Create a GitHub repository.
-2. Upload the full contents of this package root, not the ZIP itself.
-3. Go to **Settings → Pages**.
-4. Choose **Deploy from a branch**.
-5. Select the `main` branch and `/root` folder.
-6. Save the Pages settings.
-7. After GitHub publishes the site, update the placeholders listed in **Required Before Launch**.
-8. Run the checklist in `docs/launch-qa-checklist.md`.
-
-## Final static QA performed in this cleanup
-
-- Root `index.html` remains the site entry point.
-- Local asset paths referenced by HTML and manifest were checked.
-- Internal anchor targets were checked.
-- External new-tab links were checked for `rel="noopener noreferrer"`.
-- Image elements were checked for `alt` attributes.
-- JavaScript was checked for syntax errors.
-- JSON-LD was parsed as valid JSON.
-- Temporary and duplicate root-level brand files from the earlier package were removed or consolidated into the cleaner structure.
+This portfolio is an invitation to explore Yuki’s work, services, and professional strengths. For collaboration, client support, or career opportunities, visitors are encouraged to connect and start a conversation.
