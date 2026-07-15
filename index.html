@@ -219,7 +219,7 @@
           <div class="quick-facts" aria-label="Quick facts">
             <h3>Quick facts</h3>
             <dl>
-              <div><dt>Hands-on builds</dt><dd>2 practical systems completed</dd></div>
+              <div><dt>Hands-on builds</dt><dd>3 practical systems completed</dd></div>
               <div><dt>English</dt><dd>Professional working proficiency</dd></div>
               <div><dt>Languages</dt><dd>English, Filipino</dd></div>
               <div><dt>Work style</dt><dd>Async-first · flexible real-time support</dd></div>
@@ -346,7 +346,63 @@
         <article class="case-card workflow-case reveal">
           <div class="case-copy case-copy-wide">
             <div>
-              <p class="case-label">Project 01 · Portfolio simulation</p>
+              <p class="case-label">Project 01 · Multi-tenant automation</p>
+              <h3>AI Front Desk &amp; Follow-Up System for Service Businesses</h3>
+            </div>
+            <p class="case-summary">A resellable, multi-tenant “AI receptionist” built in n8n: one webhook and one shared Airtable base serve many client businesses. It captures leads, replies and qualifies them with AI in seconds, books appointments, sends reminders, chases no-shows, reactivates past clients, and emails staff a daily digest.</p>
+          </div>
+
+          <figure class="workflow-shot">
+            <a href="assets/images/ai-front-desk-workflow.svg" target="_blank" rel="noopener noreferrer" aria-label="Open the full AI Front Desk architecture diagram in a new tab">
+              <img src="assets/images/ai-front-desk-workflow.svg" alt="Architecture diagram of the multi-tenant AI Front Desk: a single lead-intake webhook feeds an AI qualification agent and a shared Airtable base, which drives six scheduled workflows for follow-up, booking capture, reminders, post-visit and no-show, reactivation, and a staff daily digest." width="1020" height="520" loading="lazy" decoding="async" />
+            </a>
+            <figcaption>Architecture map: one webhook → AI qualify &amp; reply → shared Airtable base → six scheduled lifecycle workflows. <a class="workflow-open-link" href="assets/images/ai-front-desk-workflow.svg" target="_blank" rel="noopener noreferrer">Open full diagram →</a></figcaption>
+          </figure>
+
+          <div class="before-after-grid" aria-label="Before and after workflow comparison">
+            <article>
+              <span>Before</span>
+              <p>New inquiry → waits in an inbox → slow manual reply → follow-up depends on memory → booking lost to a faster competitor</p>
+            </article>
+            <article>
+              <span>After</span>
+              <p>Inquiry → AI replies &amp; qualifies in seconds → logged to Airtable → reminders, nurture, reactivation, and a staff digest run on autopilot</p>
+            </article>
+          </div>
+
+          <div class="impact-strip" aria-label="AI Front Desk build highlights">
+            <div><strong>7</strong><span>cooperating workflows</span></div>
+            <div><strong>1</strong><span>shared lead database</span></div>
+            <div><strong>24/7</strong><span>AI reply &amp; qualify</span></div>
+            <div><strong>Multi</strong><span>tenant · one build, many clients</span></div>
+          </div>
+
+          <div class="case-detail-grid">
+            <dl class="case-facts" aria-label="AI Front Desk project facts">
+              <div><dt>Project type</dt><dd>Self-initiated multi-tenant build</dd></div>
+              <div><dt>Architecture</dt><dd>One webhook · client_id-driven config</dd></div>
+              <div><dt>Tools used</dt><dd>n8n · Airtable · Groq LLM · Gmail · Google Calendar</dd></div>
+              <div><dt>Lifecycle</dt><dd>New · Nurturing · Booked · Won · Reactivated</dd></div>
+            </dl>
+
+            <div class="case-sections">
+              <div><h4>Problem</h4><p>Service businesses like med spas, clinics, and salons lose bookings when inquiries pile up in an inbox: replies are slow, follow-up depends on memory, and no-shows and past clients are rarely chased. Doing this well for several businesses usually means rebuilding the same automation over and over.</p></div>
+              <div><h4>Build</h4><p>I built a multi-tenant n8n system where a single webhook accepts leads from any client’s form or chat widget. An AI agent (Groq) answers using only that client’s approved facts, scores the lead Hot/Warm/Cold, and pushes toward booking — escalating medical questions or complaints to staff instead of guessing. Everything is stored in one shared Airtable base, and six scheduled workflows handle the rest of the lifecycle: nurture, booking capture, reminders, post-visit and no-show, reactivation, and a staff daily digest.</p></div>
+              <div><h4>Tools</h4><p>n8n · Airtable (Leads + Clients tables) · Groq LLM (llama-3.3-70b) · Gmail · Google Calendar</p></div>
+              <div><h4>Outcome</h4><p>One build serves many businesses: onboarding a new client is just adding a row to the Clients table — no workflow edits. The AI stays on approved facts and escalates edge cases, so responses are fast without being risky, and the whole system is documented with sanitized workflow exports for reuse.</p></div>
+              <div><h4>Use case</h4><p>For clinics, salons, and service teams, this keeps every inquiry answered in seconds, follow-up consistent, and staff informed each morning — the kind of system that can be packaged and resold to multiple businesses.</p></div>
+              <div class="case-proof"><h4>What this proves</h4><p>This demonstrates my ability to design a production-shaped, multi-tenant automation — AI qualification with guardrails, a shared data model, and seven cooperating workflows — plus the documentation and sanitized exports that make it reusable and easy to hand off.</p></div>
+              <div class="case-links" aria-label="AI Front Desk project links">
+                <a class="text-link" href="https://github.com/YukiCordero/ai-front-desk-n8n" target="_blank" rel="noopener noreferrer" aria-label="View GitHub repository for the AI Front Desk n8n system">View GitHub Repository <span>→</span></a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="case-card workflow-case reveal">
+          <div class="case-copy case-copy-wide">
+            <div>
+              <p class="case-label">Project 02 · Portfolio simulation</p>
               <h3>Smart Appointment Setter for Cleaning Leads</h3>
             </div>
             <p class="case-summary">A portfolio simulation showing how one cleaning inquiry can be routed into the right lead path, follow-up email, tracking update, CRM action, and calendar booking when schedule details are complete.</p>
@@ -405,7 +461,7 @@
             <img src="assets/images/pos-system.png" alt="Screenshot of the Dream Coffee POS interface" width="897" height="904" loading="lazy" decoding="async" />
           </div>
           <div class="case-copy">
-            <p class="case-label">Project 02 · Family business system</p>
+            <p class="case-label">Project 03 · Family business system</p>
             <h3>Custom POS System for Orders, Inventory, Sales, and Employee Time Tracking</h3>
             <div class="case-meta">
               <span>Family business system</span>
@@ -437,7 +493,7 @@
           <p>Concrete outputs that show automation logic, workflow structure, internal tools, tracking, and reporting capability.</p>
         </div>
         <div class="metrics-grid">
-          <article class="metric-card reveal"><strong data-count="2">2</strong><span>Practical systems built</span><p>AI lead automation + operations POS system</p></article>
+          <article class="metric-card reveal"><strong data-count="3">3</strong><span>Practical systems built</span><p>Multi-tenant AI front desk, AI lead automation, and an operations POS system</p></article>
           <article class="metric-card reveal"><strong data-count="4">4</strong><span>Lead qualification paths</span><p>Hot, Warm, Cold, Manual Review</p></article>
           <article class="metric-card reveal"><strong data-count="6">6</strong><span>POS modules</span><p>Order, Cart, Time, Report, Stock, Menu</p></article>
           <article class="metric-card reveal"><strong data-count="5">5</strong><span>Payment options</span><p>Cash, GCash, bank transfer, card, others</p></article>
@@ -511,7 +567,7 @@
           <h2 id="why-title">Practical systems, clear handoff, reliable support.</h2>
         </div>
         <div class="why-grid">
-          <article class="why-card reveal"><span>01</span><h3>Practical build experience</h3><p>I built an AI appointment-setter simulation and a custom POS system that demonstrate workflow logic, operations tracking, and internal tool setup.</p></article>
+          <article class="why-card reveal"><span>01</span><h3>Practical build experience</h3><p>I built a multi-tenant AI front desk, an AI appointment-setter simulation, and a custom POS system that demonstrate workflow logic, AI guardrails, operations tracking, and internal tool setup.</p></article>
           <article class="why-card reveal"><span>02</span><h3>Small business focus</h3><p>I focus on useful, low-friction systems that make leads, tasks, and daily operations easier for owners and small teams to review.</p></article>
           <article class="why-card reveal"><span>03</span><h3>Automation + admin</h3><p>I can support both automation setup and admin-tech work: CRM updates, testing, tracker maintenance, web edits, and documentation.</p></article>
           <article class="why-card reveal"><span>04</span><h3>Clear remote handoff</h3><p>I provide practical remote support with async-friendly communication, organized notes, careful testing, and Loom walkthroughs when useful.</p></article>
