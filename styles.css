@@ -191,9 +191,20 @@ main section[id] { scroll-margin-top: calc(var(--header-h) + 1.25rem); }
   border-radius: 999px;
 }
 .brand-logo {
-  width: min(13.75rem, 42vw);
-  height: auto;
+  width: 3rem;
+  height: 3rem;
   display: block;
+}
+
+.brand { gap: 0.65rem; }
+
+.brand-name {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  color: var(--cream);
+  white-space: nowrap;
 }
 
 .nav-menu { display: flex; align-items: center; gap: 0.35rem; margin: 0; padding: 0; list-style: none; }
@@ -949,8 +960,8 @@ main section[id] { scroll-margin-top: calc(var(--header-h) + 1.25rem); }
 }
 
 .footer-logo {
-  width: min(11.25rem, 60vw);
-  height: auto;
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 /* Global focus and client-conversion refinements */
@@ -1171,7 +1182,8 @@ summary:focus-visible,
 @media (max-width: 560px) {
   .container { width: min(100% - 1.25rem, var(--container)); }
   .section { padding: 4.4rem 0; }
-  .brand-logo { width: min(11.25rem, 58vw); }
+  .brand-logo { width: 2.5rem; height: 2.5rem; }
+  .brand-name { font-size: 0.95rem; }
   .hero-actions,
   .contact-actions {
     display: grid;
